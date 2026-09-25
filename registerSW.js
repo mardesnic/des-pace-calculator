@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/des-pace-calculator/sw.js', { scope: '/des-pace-calculator/' })})}
